@@ -56,7 +56,8 @@ export const Inventory = () => {
         <button className="circlularButton">+</button>
         <button className="circlularButton">-</button>
         <span>{inv.inkpens}</span>
-      </div>
+      </div >
+      <p></p>
       total: {0}
     </div>
   );
