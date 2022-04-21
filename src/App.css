@@ -17,6 +17,20 @@
   }
 }
 
+.items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.circlularButton {
+  background: transparent;
+  border: none;
+  background: coral;
+  border-radius: 50%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
