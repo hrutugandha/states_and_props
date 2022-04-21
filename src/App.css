@@ -17,6 +17,14 @@
   }
 }
 
+.redtext{
+  color: red;
+}
+
+.greentext{
+  color: green;
+}
+
 .items {
   width: 100%;
   display: flex;

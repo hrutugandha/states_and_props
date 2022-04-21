@@ -12,7 +12,7 @@ export default function Counter() {
 
   return (
     <>
-      <h1 className="AppTitle">counter</h1>
+      <h1 className="AppTitle" style={counter%2===0 ? {color:"green"} : {color:"red"}}>counter</h1>
       <h2>{counter}</h2>
       <button onClick={() => handleCounter(2)}>double</button>
       <button onClick={() => reduceCounter(1)}>reduce</button>
